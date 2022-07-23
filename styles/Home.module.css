@@ -108,6 +108,31 @@
   margin-left: 0.5rem;
 }
 
+.phrase {
+  font-weight: 900;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 6em;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em;
+  background-color: #0070f3;
+  color: #eaeaea;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.link {
+  margin-right: 20px;
+  color: #0070f3;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

@@ -1,0 +1,8 @@
+.phrase {
+  font-weight: 900;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 60px;
+  text-align: center;
+}
