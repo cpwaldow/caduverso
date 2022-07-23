@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './Components/header/Header';
 import ExpressionsList from './expressionsList';
 import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 
 export default function Expressions() {
   const arr = ExpressionsList();
@@ -18,6 +19,9 @@ export default function Expressions() {
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Caduverso - Expressões</title>
+      </Head>
       <Header />
       <p className={styles.phrase}>{phrase}</p>
       <button onClick={handlePhrase} className={styles.btn}>
