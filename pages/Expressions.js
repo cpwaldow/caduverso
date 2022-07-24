@@ -5,16 +5,16 @@ import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 
 export default function Expressions() {
-  const arr = ExpressionsList();
-  const [phrase, setPhrase] = useState(arr[0]);
+  const arrayPhrase = ExpressionsList();
+  const [phrase, setPhrase] = useState(arrayPhrase[0]);
 
   const handlePhrase = () => {
     const randomNumber = Math.floor(Math.random() * 23);
 
-    if (phrase === arr[randomNumber]) {
-      return setPhrase(arr[randomNumber + 1]);
+    if (phrase === arrayPhrase[randomNumber]) {
+      return setPhrase(arrayPhrase[randomNumber + 1]);
     }
-    return setPhrase(arr[randomNumber]);
+    return setPhrase(arrayPhrase[randomNumber]);
   };
 
   return (

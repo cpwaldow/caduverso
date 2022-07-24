@@ -9,7 +9,7 @@ export default function Header() {
           <a className={styles.link}>Home</a>
         </Link>
 
-        <Link href="../Expressions">
+        <Link href="../expressions">
           <a className={styles.link}>Expressões</a>
         </Link>
       </nav>
