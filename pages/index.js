@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Header from './Components/header/Header';
+import Header from '../Components/Header';
 import Image from 'next/image';
 import mypic from '../image/profile.jpeg';
 

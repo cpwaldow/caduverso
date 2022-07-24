@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Header from './Components/header/Header';
+import Header from '../Components/Header';
 import ExpressionsList from './expressionsList';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
