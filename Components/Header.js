@@ -12,6 +12,10 @@ export default function Header() {
         <Link href="../expression">
           <a className={styles.link}>Expressões</a>
         </Link>
+
+        <Link href="../fundamentos">
+          <a className={styles.link}>Fundamentos</a>
+        </Link>
       </nav>
     </header>
   );
