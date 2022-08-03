@@ -18,6 +18,8 @@ import tiago1 from '../image/tiago1.png';
 import tiago2 from '../image/tiago2.png';
 import tiago3 from '../image/tiago3.png';
 import vitor from '../image/vitor.png';
+import vitor2 from '../image/vitor2.png';
+import vitor3 from '../image/vitor3.png';
 
 export default function fundamentos() {
   return (
@@ -43,6 +45,8 @@ export default function fundamentos() {
         <Photo props={{ image: { tiago2 }, name: 'tiago2' }} />
         <Photo props={{ image: { tiago3 }, name: 'tiago3' }} />
         <Photo props={{ image: { vitor }, name: 'vitor' }} />
+        <Photo props={{ image: { vitor2 }, name: 'vitor2' }} />
+        <Photo props={{ image: { vitor3 }, name: 'vitor3' }} />
       </section>
     </div>
   );
