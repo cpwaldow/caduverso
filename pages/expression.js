@@ -20,6 +20,10 @@ export default function Expressions() {
   return (
     <div className={styles.container}>
       <Head>
+        <meta
+          name="description"
+          content="Expressões para guerreiros que são bem determinados"
+        />
         <title>Caduverso - Expressões</title>
       </Head>
       <Header />

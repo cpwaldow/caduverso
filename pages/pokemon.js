@@ -12,6 +12,7 @@ export default function Pokemon({ data }) {
   return (
     <>
       <Head>
+        <meta name="description" content="Pokémon" />
         <title>Pokemon</title>
       </Head>
       <Header />

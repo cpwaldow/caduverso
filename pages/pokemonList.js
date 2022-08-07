@@ -15,6 +15,7 @@ export default function PokemonList({ data }) {
   return (
     <>
       <Head>
+        <meta name="description" content="Lista de Pokémon" />
         <title>Lista de Pokemons</title>
       </Head>
       <Header />
