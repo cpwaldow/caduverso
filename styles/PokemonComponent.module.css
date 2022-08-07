@@ -1,0 +1,9 @@
+.name {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.pokeImg {
+  width: 200px;
+  height: 200px;
+}

@@ -1,14 +1,20 @@
 import Image from 'next/image';
+import S from '../styles/PokemonComponent.module.css';
 
 export default function PokemonComponent({ data }) {
-  console.log(data);
   return (
     <>
-      <h2>
+      <h2 className={S.name}>
         {data.name}, {data.id}
       </h2>
-      <Image src={data.sprites.front_default} width="100px" height="100px" />
+      <img
+        className={S.pokeImg}
+        src={data.sprites.front_default}
+        loading="lazy"
+      />
+
       <section>
+        <p>{data.types.length > 1 ? 'Types: ' : 'Type: '}</p>
         {data.types.map((type) => (
           <p key={type.type.name}>{type.type.name}</p>
         ))}
