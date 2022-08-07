@@ -7,12 +7,7 @@ export default function PokemonComponent({ data }) {
       <h2 className={S.name}>
         {data.name}, {data.id}
       </h2>
-      <img
-        className={S.pokeImg}
-        src={data.sprites.front_default}
-        loading="lazy"
-        alt={data.name}
-      />
+      <img src={data.sprites.front_default} loading="lazy" alt={data.name} />
 
       <section>
         <p>{data.types.length > 1 ? 'Types: ' : 'Type: '}</p>
