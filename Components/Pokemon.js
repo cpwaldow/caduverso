@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import S from '../styles/PokemonComponent.module.css';
 
 export default function PokemonComponent({ data }) {
