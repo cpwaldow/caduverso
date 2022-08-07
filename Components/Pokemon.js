@@ -11,6 +11,7 @@ export default function PokemonComponent({ data }) {
         className={S.pokeImg}
         src={data.sprites.front_default}
         loading="lazy"
+        alt={data.name}
       />
 
       <section>
