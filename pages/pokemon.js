@@ -1,14 +1,15 @@
 import Head from 'next/head';
 import Header from '../Components/Header';
+import Image from 'next/image';
 
 export async function getStaticProps() {
-  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/1`);
+  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/25`);
   const data = await response.json();
   return { props: { data } };
 }
 
 export default function Pokemon({ data }) {
-  console.log(data.moves[0].move.name);
+  console.log(data.sprites.front_default);
   return (
     <>
       <Head>
@@ -18,6 +19,7 @@ export default function Pokemon({ data }) {
       <h2>
         {data.name}, {data.id}
       </h2>
+      <Image src={data.sprites.front_default} width="100px" height="100px" />
       <section>
         {data.types.map((type) => (
           <p key={type.type.name}>{type.type.name}</p>
