@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Header from '../Components/Header';
-import Image from 'next/image';
 import PokemonComponent from '../Components/Pokemon';
 
 export async function getStaticProps() {
