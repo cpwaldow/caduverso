@@ -2,6 +2,11 @@
   padding: 0 16px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .container::after, .row::after {
   content: "";
   clear: both;
