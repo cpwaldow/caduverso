@@ -2,7 +2,7 @@ import Image from 'next/image';
 import S from '../styles/PokemonComponent.module.css';
 
 export default function PokemonComponent({ data }) {
-  console.log(data);
+  console.log(data.stats);
   return (
     <>
       <h2 className={S.name}>
@@ -29,6 +29,14 @@ export default function PokemonComponent({ data }) {
         {data.abilities.map((item) => (
           <li key={item.ability.name} className={S['abilities-item']}>
             {item.ability.name}
+          </li>
+        ))}
+      </ul>
+      <h3>Stats</h3>
+      <ul className={S['stats-list']}>
+        {data.stats.map((item) => (
+          <li key={item.stat.name}>
+            {item.stat.name}: {item.base_stat}
           </li>
         ))}
       </ul>

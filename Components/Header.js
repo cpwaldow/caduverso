@@ -17,8 +17,8 @@ export default function Header() {
           <a className={styles.link}>Fundamentos</a>
         </Link>
 
-        <Link href="../pokemonList">
-          <a className={styles.link}>Pokemon</a>
+        <Link href="../pokemon">
+          <a className={styles.link}>Pokemon Favorito</a>
         </Link>
       </nav>
     </header>
