@@ -20,6 +20,10 @@ export default function Header() {
         <Link href="../pokemon">
           <a className={styles.link}>Pokemon Favorito</a>
         </Link>
+
+        <Link href="../news">
+          <a className={styles.link}>Notícias</a>
+        </Link>
       </nav>
     </header>
   );
