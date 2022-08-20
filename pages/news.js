@@ -4,8 +4,12 @@ import NewsComponent from '../Components/News';
 import S from '../styles/News.module.css';
 
 export async function getStaticProps() {
-  const response = await fetch(
+  const apiKey = process.env.GOOGLE_KEY;
+  /* const response = await fetch(
     'https://newsapi.org/v2/top-headlines?country=br&apiKey=2ab25364a39b41fea2a4211ff10ba685',
+  ); */
+  const response = await fetch(
+    `https://newsapi.org/v2/top-headlines?country=br&apiKey=${apiKey}`,
   );
   const data = await response.json();
   return { props: { data } };
