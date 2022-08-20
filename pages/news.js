@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '../Components/Header';
 import NewsComponent from '../Components/News';
+import S from '../styles/News.module.css';
 
 export async function getStaticProps() {
   const response = await fetch(
@@ -19,9 +20,11 @@ export default function Googlenews({ data }) {
       </Head>
       <Header />
       <h1>Principais notícias</h1>
-      {data.articles.map((item) => (
-        <NewsComponent data={item} />
-      ))}
+      <section className={S.container}>
+        {data.articles.map((item) => (
+          <NewsComponent data={item} key={item.publishedAt} />
+        ))}
+      </section>
     </>
   );
 }

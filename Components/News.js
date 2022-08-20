@@ -3,11 +3,12 @@ import S from '../styles/NewsComponent.module.css';
 export default function NewsComponent({ data }) {
   console.log(data);
   return (
-    <>
-      <h3>{data.title}</h3>
-      <img src={data.urlToImage} className={S.newsImg} />
-      <p>{data.description}</p>
-      <p>{data.content}</p>
-    </>
+    <section className={S.container}>
+      <img src={data.urlToImage} className={S.newsImg} alt={data.title} />
+      <section className={S.content}>
+        <h3 className={S.text}>{data.title}</h3>
+        <p className={S.text}>{data.description}</p>
+      </section>
+    </section>
   );
 }
