@@ -1,22 +1,36 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Header from '../Components/Header';
+import Image from 'next/image';
+import mypic from '../image/profile.jpeg';
 import S from '../styles/Index.module.css';
 
+// Referencia: https://br.pinterest.com/pin/334040497372786387/
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Caduverso</title>
-        <meta name="description" content="Bem-vindos ao Caduverso" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div>
+      <section className={styles.container}>
+        <Head>
+          <title>Caduverso</title>
+          <meta name="description" content="Bem-vindos ao Caduverso" />
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
 
-      <Header />
-
+        <Header />
+      </section>
       <main>
-        <section className={S.background_container}>
-          <h2 className={S.title}>Carlos Eduardo</h2>
+        <section className={S.container}>
+          <section>
+            <h1 className={S.name}>Oi, eu sou o Cadu!</h1>
+            <p className={S.job}>Desenvolvedor Front-end e Instrutor</p>
+          </section>
+          <Image
+            src={mypic}
+            width={350}
+            height={350}
+            alt="Cadu"
+            className={S.img}
+          />
         </section>
       </main>
     </div>

@@ -1,20 +1,28 @@
-.background_container {
+.container {
   align-items: center;
-  background-size: cover;
-  background-image: url('../image/profile.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
   display: flex;
-  justify-content: center;
-  min-height: 600px;
-  margin: 40px 0;
+  justify-content: space-around;
+  margin-top: 30px;
 }
-.title {
-  border-bottom: 2px solid white;
-  color: white;
-  font-size: 6vh;
+
+.name {
+  font-size: 3rem;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.job {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  margin: 0;
+  padding: 0;
+}
+
+.name , .job {
   font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 5px;
-  text-align: center;
-  text-shadow: 3px 3px 3px black;
+}
+
+.img {
+  border-radius: 8px;
+  text-shadow: 30px 30px 30px black;
 }
