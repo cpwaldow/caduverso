@@ -1,0 +1,20 @@
+.background_container {
+  align-items: center;
+  background-size: cover;
+  background-image: url('../image/profile.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  margin: 40px 0;
+}
+.title {
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 6vh;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}

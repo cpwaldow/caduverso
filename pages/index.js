@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Header from '../Components/Header';
-import Image from 'next/image';
-import mypic from '../image/profile.jpeg';
+import S from '../styles/Index.module.css';
 
 export default function Home() {
   return (
@@ -16,8 +15,9 @@ export default function Home() {
       <Header />
 
       <main>
-        <h1>Bem-vindos ao Caduverso</h1>
-        <Image src={mypic} width="144" height={144} loading="lazy" alt="Cadu" />
+        <section className={S.background_container}>
+          <h2 className={S.title}>Carlos Eduardo</h2>
+        </section>
       </main>
     </div>
   );
