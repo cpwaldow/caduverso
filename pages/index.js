@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Header from '../Components/Header';
 import Image from 'next/image';
+import Link from 'next/link';
 import mypic from '../image/profile.jpeg';
 import S from '../styles/Index.module.css';
 
@@ -23,6 +24,11 @@ export default function Home() {
           <section>
             <h1 className={S.name}>Oi, eu sou o Cadu!</h1>
             <p className={S.job}>Desenvolvedor Front-end e Instrutor</p>
+            <Link href="https://www.linkedin.com/in/carlos-waldow/">
+              <a target="_blank" className={S.linkedin}>
+                Linkedin
+              </a>
+            </Link>
           </section>
           <Image
             src={mypic}
