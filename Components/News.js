@@ -1,7 +1,6 @@
 import S from '../styles/NewsComponent.module.css';
 
 export default function NewsComponent({ data }) {
-  console.log(data);
   return (
     <section className={S.container}>
       <img src={data.urlToImage} className={S.newsImg} alt={data.title} />
