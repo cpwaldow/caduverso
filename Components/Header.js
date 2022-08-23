@@ -13,14 +13,6 @@ export default function Header() {
           <a className={styles.link}>Expressões</a>
         </Link>
 
-        <Link href="../fundamentos">
-          <a className={styles.link}>Fundamentos</a>
-        </Link>
-
-        <Link href="../pokemon">
-          <a className={styles.link}>Pokemon Favorito</a>
-        </Link>
-
         <Link href="../news">
           <a className={styles.link}>Notícias</a>
         </Link>
