@@ -14,6 +14,7 @@
   justify-content: space-around;
   margin-bottom: 100px;
   margin-top: 50px;
+  line-height: 35px;
 }
 
 .second_section {
@@ -29,8 +30,9 @@
 .job {
   font-size: 1.5rem;
   letter-spacing: 1.5px;
-  margin: 0 0 60px 0;
+  margin: 0 0 40px 0;
   padding: 0;
+  width: 330px;
 }
 
 .name , .job {
