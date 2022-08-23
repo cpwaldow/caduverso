@@ -26,7 +26,9 @@ export default function Home() {
         <section className={`${S.container} ${S.first_section}`}>
           <section>
             <h1 className={S.name}>Oi, eu sou o Cadu!</h1>
-            <p className={S.job}>Desenvolvedor Front-end e Instrutor</p>
+            <p className={S.job}>
+              Desenvolvedor Front-end e Instrutor de Tecnologia
+            </p>
             <Link href="https://www.linkedin.com/in/carlos-waldow/">
               <a target="_blank" className={`${S.btn} ${S.linkedin_color}`}>
                 Linkedin
