@@ -9,8 +9,8 @@ export default function Header() {
           <a className={styles.link}>Home</a>
         </Link>
 
-        <Link href="../expression">
-          <a className={styles.link}>Expressões</a>
+        <Link href="../euphemism">
+          <a className={styles.link}>Eufemismo</a>
         </Link>
 
         <Link href="../news">
