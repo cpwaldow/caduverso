@@ -108,13 +108,24 @@
   margin-left: 0.5rem;
 }
 
+.eufemismo {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.eufemismo-txt {
+  font-size: 1.2em;
+  margin: 0 20%;
+  text-align: center;
+}
+
 .phrase {
   font-weight: 900;
   font-size: 1.5em;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin-top: 6em;
+  margin-top: 4em;
 }
 
 .btn {
