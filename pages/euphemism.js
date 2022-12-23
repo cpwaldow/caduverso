@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../Components/Header';
-import ExpressionsList from './expressionsList';
+import EufemismoLista from './expressionsList';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import ChangeEuphemism from '../Components/ChangeEuphemism';
@@ -30,7 +30,8 @@ export default function Euphemism() {
           </blockquote>
         </article>
       </section>
-      <ChangeEuphemism eufenismo={ExpressionsList()} />
+      <ChangeEuphemism eufenismo={EufemismoLista.broxada} />
+      <ChangeEuphemism eufenismo={EufemismoLista.falecimento} />
     </div>
   );
 }

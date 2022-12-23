@@ -119,18 +119,25 @@
   text-align: center;
 }
 
+.eufemismo-container {
+  border: 0.1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
 .phrase {
   font-weight: 900;
   font-size: 1.5em;
   text-transform: uppercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin-top: 4em;
+  margin: 0;
 }
 
 .btn {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
   font-size: 1.5em;
   background-color: #0070f3;
   color: #eaeaea;

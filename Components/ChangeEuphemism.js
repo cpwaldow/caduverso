@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 import styles from '../styles/Home.module.css';
 
 const ChangeEuphemism = ({ eufenismo }) => {
-  const [phrase, setPhrase] = useState(eufenismo[0]);
-
+  const [index, setIndex] = useState(0);
+  const [phrase, setPhrase] = useState(eufenismo[index]);
   const handlePhrase = () => {
-    const randomNumber = Math.floor(Math.random() * 23);
-
-    if (phrase === eufenismo[randomNumber]) {
-      return setPhrase(eufenismo[randomNumber + 1]);
+    if (index > eufenismo.length - 1) {
+      setIndex(1);
+      return setPhrase(eufenismo[0]);
     }
-    return setPhrase(eufenismo[randomNumber]);
+    setIndex(index + 1);
+    return setPhrase(eufenismo[index]);
   };
   return (
-    <>
+    <section className={styles['eufemismo-container']}>
       <p className={styles.phrase}>{phrase}</p>
       <button onClick={handlePhrase} className={styles.btn}>
         Gerar expressão
       </button>
-    </>
+    </section>
   );
 };
 
