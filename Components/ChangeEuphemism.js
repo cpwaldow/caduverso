@@ -16,7 +16,7 @@ const ChangeEuphemism = ({ eufenismo }) => {
     <section className={styles['eufemismo-container']}>
       <p className={styles.phrase}>{phrase}</p>
       <button onClick={handlePhrase} className={styles.btn}>
-        Gerar expressão
+        Próximo Eufemismo
       </button>
     </section>
   );
