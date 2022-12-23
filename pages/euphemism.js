@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Components/Header';
-import EufemismoLista from './expressionsList';
+import EufemismoLista from '../Components/expressionsList';
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import ChangeEuphemism from '../Components/ChangeEuphemism';
