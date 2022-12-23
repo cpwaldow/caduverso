@@ -30,8 +30,10 @@ export default function Euphemism() {
           </blockquote>
         </article>
       </section>
-      <ChangeEuphemism eufenismo={EufemismoLista.broxada} />
-      <ChangeEuphemism eufenismo={EufemismoLista.falecimento} />
+      <section className={styles['elfe-container']}>
+        <ChangeEuphemism eufenismo={EufemismoLista.broxada} />
+        <ChangeEuphemism eufenismo={EufemismoLista.falecimento} />
+      </section>
     </div>
   );
 }
