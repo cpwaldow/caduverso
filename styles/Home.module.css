@@ -164,6 +164,10 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .eufemismo-txt {
+    margin: 0;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
