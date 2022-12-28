@@ -22,6 +22,7 @@ const broxada = [
   'duas chacoalhada e a varinha quebra',
   'dois alohomora e a porta abre',
   'dois acordes e acabou a sinfonia',
+  'duas canetadas e acabou a tinta',
 ];
 
 const falecimento = [
