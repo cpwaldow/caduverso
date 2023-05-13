@@ -1,0 +1,141 @@
+[
+  {
+    "weekday": "Segunda-feira",
+    "muscleGroup": "Pernas e Glúteos",
+    "exercises": [
+      {
+        "exercise": "Agachamento com barra",
+        "series": 3,
+        "repeticoes": 10
+      },
+      {
+        "exercise": "Leg press",
+        "series": 3,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "Stiff com barra",
+        "series": 3,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "Abdução de quadril na máquina",
+        "series": 3,
+        "repeticoes": 15
+      },
+      {
+        "exercise": "Adução de quadril na máquina",
+        "series": 3,
+        "repeticoes": 15
+      }
+    ]
+  },
+  {
+    "weekday": "Terça-feira",
+    "muscleGroup": "Peito e Tríceps",
+    "exercises": [
+      {
+        "exercise": "supino reto com halteres",
+        "series": 3,
+        "repetições": 10
+      },
+      {
+        "exercise": "supino inclinado com halteres",
+        "series": 3,
+        "repetições": 12
+      },
+      {
+        "exercise": "crossover na máquina",
+        "series": 3,
+        "repetições": 12
+      },
+      {
+        "exercise": "tríceps corda na polia",
+        "series": 3,
+        "repetições": 12
+      },
+      {
+        "exercise": "tríceps francês com halteres",
+        "series": 3,
+        "repetições": 12
+      }
+    ]
+  },
+  {
+    "weekday": "Quarta-feira",
+    "muscleGroup": "Costas e Bíceps",
+    "exercises": [
+      {
+        "exercise": "Barra fixa (pull-up)",
+        "series": 3,
+        "repetitions": 10
+      },
+      {
+        "exercise": "Remada sentado na máquina",
+        "series": 3,
+        "repetitions": 12
+      },
+      {
+        "exercise": "Puxada alta na polia",
+        "series": 3,
+        "repetitions": 12
+      },
+      {
+        "exercise": "Bíceps alternado com halteres",
+        "series": 3,
+        "repetitions": 12
+      },
+      {
+        "exercise": "Bíceps concentrado com halteres",
+        "series": 3,
+        "repetitions": 12
+      }
+    ]
+  },
+  {
+    "weekday": "Quinta-feira",
+    "muscleGroup": "Ombros e Abdômen",
+    "exercises": [
+      {
+        "exercise": "desenvolvimento militar com barra",
+        "series": 3,
+        "repeticoes": 10
+      },
+      {
+        "exercise": "elevação lateral com halteres",
+        "series": 3,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "elevação frontal com halteres",
+        "series": 3,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "remada alta com halteres",
+        "series": 3,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "abdominal crunch na bola suíça",
+        "series": 3,
+        "repeticoes": 20
+      },
+      {
+        "exercise": "prancha abdominal",
+        "series": 3,
+        "repeticoes": 20
+      },
+      {
+        "exercise": "corrida na esteira em intervalos de alta intensidade (HIIT)",
+        "series": null,
+        "repeticoes": null
+      },
+      {
+        "exercise": "alongamento para ombros e abdômen",
+        "series": null,
+        "repeticoes": null
+      }
+    ]
+  }
+]
