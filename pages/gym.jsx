@@ -4,13 +4,6 @@ import Head from 'next/head';
 import Header from '../Components/Header';
 import styles from '../styles/Home.module.css';
 
-const weekDay = [
-  'Segunda-feira',
-  'Terça-feira',
-  'Quarta-feira',
-  'Quinta-feira',
-];
-
 const gym = () => {
   console.log(exercises);
   return (
