@@ -3,9 +3,9 @@ import exercises from '../Components/exercises.json';
 import Head from 'next/head';
 import Header from '../Components/Header';
 import styles from '../styles/Home.module.css';
+import gymStyle from '../styles/Gym.module.css';
 
 const gym = () => {
-  console.log(exercises);
   return (
     <section className={styles.container}>
       <Head>
@@ -13,20 +13,22 @@ const gym = () => {
         <title>Caduverso - Expressões</title>
       </Head>
       <Header />
-      <section>
+      <section className={gymStyle.container}>
         {exercises.map((element) => (
-          <section key={element.weekday}>
-            <h2>{element.weekday}</h2>
-            <p>{element.muscleGroup}</p>
-            {element.exercises.map((exercise) => (
-              <React.Fragment key={exercise.exercise}>
-                <h4>{exercise.exercise}</h4>
-                <p>
-                  Série: {exercise.series} Repetições: {exercise.repeticoes}
-                </p>
-              </React.Fragment>
-            ))}
-          </section>
+          <details key={element.weekday} className={gymStyle.card}>
+            <summary>{element.weekday}</summary>
+            <h4>{element.muscleGroup}</h4>
+            <section className={gymStyle.exercises}>
+              {element.exercises.map((exercise) => (
+                <React.Fragment key={exercise.exercise}>
+                  <h4 className={gymStyle.exerciseName}>{exercise.exercise}</h4>
+                  <p>
+                    Série: {exercise.series} Repetições: {exercise.repeticoes}
+                  </p>
+                </React.Fragment>
+              ))}
+            </section>
+          </details>
         ))}
       </section>
     </section>
