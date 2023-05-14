@@ -16,7 +16,7 @@ const gym = () => {
       <section className={gymStyle.container}>
         {exercises.map((element) => (
           <details key={element.weekday} className={gymStyle.card}>
-            <summary>{element.weekday}</summary>
+            <summary className={gymStyle.weekDay}>{element.weekday}</summary>
             <h4>{element.muscleGroup}</h4>
             <section className={gymStyle.exercises}>
               {element.exercises.map((exercise) => (
