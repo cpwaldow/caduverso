@@ -37,27 +37,27 @@
       {
         "exercise": "supino reto com halteres",
         "series": 3,
-        "repetições": 10
+        "repeticoes": 10
       },
       {
         "exercise": "supino inclinado com halteres",
         "series": 3,
-        "repetições": 12
+        "repeticoes": 12
       },
       {
         "exercise": "crossover na máquina",
         "series": 3,
-        "repetições": 12
+        "repeticoes": 12
       },
       {
         "exercise": "tríceps corda na polia",
         "series": 3,
-        "repetições": 12
+        "repeticoes": 12
       },
       {
         "exercise": "tríceps francês com halteres",
         "series": 3,
-        "repetições": 12
+        "repeticoes": 12
       }
     ]
   },
@@ -68,27 +68,27 @@
       {
         "exercise": "Barra fixa (pull-up)",
         "series": 3,
-        "repetitions": 10
+        "repeticoes": 10
       },
       {
         "exercise": "Remada sentado na máquina",
         "series": 3,
-        "repetitions": 12
+        "repeticoes": 12
       },
       {
         "exercise": "Puxada alta na polia",
         "series": 3,
-        "repetitions": 12
+        "repeticoes": 12
       },
       {
         "exercise": "Bíceps alternado com halteres",
         "series": 3,
-        "repetitions": 12
+        "repeticoes": 12
       },
       {
         "exercise": "Bíceps concentrado com halteres",
         "series": 3,
-        "repetitions": 12
+        "repeticoes": 12
       }
     ]
   },
