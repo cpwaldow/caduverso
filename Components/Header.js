@@ -13,9 +13,9 @@ export default function Header() {
           <a className={styles.link}>Eufemismo</a>
         </Link>
 
-        <Link href='../news'>
+        {/* <Link href='../news'>
           <a className={styles.link}>Notícias</a>
-        </Link>
+        </Link> */}
 
         <Link href='../gym'>
           <a className={styles.link}>Gym</a>
