@@ -10,7 +10,7 @@ const gym = () => {
     <section className={styles.container}>
       <Head>
         <meta name='description' content='exercícios para academia' />
-        <title>Caduverso - Expressões</title>
+        <title>Caduverso - Academia</title>
       </Head>
       <Header />
       <section className={gymStyle.container}>
