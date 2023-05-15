@@ -4,17 +4,17 @@
     "muscleGroup": "Pernas e Glúteos",
     "exercises": [
       {
-        "exercise": "Agachamento com barra",
+        "exercise": "Cadeira extensora",
+        "series": 3,
+        "repeticoes": 10
+      },
+      {
+        "exercise": "Cadeira flexora",
         "series": 3,
         "repeticoes": 10
       },
       {
         "exercise": "Leg press",
-        "series": 3,
-        "repeticoes": 12
-      },
-      {
-        "exercise": "Stiff com barra",
         "series": 3,
         "repeticoes": 12
       },
@@ -25,6 +25,16 @@
       },
       {
         "exercise": "Adução de quadril na máquina",
+        "series": 3,
+        "repeticoes": 15
+      },
+      {
+        "exercise": "Glúteo no aparelho em pé",
+        "series": 3,
+        "repeticoes": 15
+      },
+      {
+        "exercise": "Panturrilha no aparelho",
         "series": 3,
         "repeticoes": 15
       }
@@ -125,16 +135,6 @@
         "exercise": "prancha abdominal",
         "series": 3,
         "repeticoes": 20
-      },
-      {
-        "exercise": "corrida na esteira em intervalos de alta intensidade (HIIT)",
-        "series": null,
-        "repeticoes": null
-      },
-      {
-        "exercise": "alongamento para ombros e abdômen",
-        "series": null,
-        "repeticoes": null
       }
     ]
   }
