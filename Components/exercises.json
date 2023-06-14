@@ -87,32 +87,57 @@
     ]
   },
   {
-    "weekday": "Treino C - A DEFINIR",
-    "muscleGroup": "Costas e Bíceps",
+    "weekday": "Treino C",
+    "muscleGroup": "ombro e perna",
     "exercises": [
       {
-        "exercise": "Barra fixa (pull-up)",
-        "series": 3,
-        "repeticoes": 10
-      },
-      {
-        "exercise": "Remada sentado na máquina",
-        "series": 3,
+        "exercise": "desenvolvimento com halteres",
+        "series": 4,
         "repeticoes": 12
       },
       {
-        "exercise": "Puxada alta na polia",
-        "series": 3,
+        "exercise": "elevação lateral",
+        "series": 4,
         "repeticoes": 12
       },
       {
-        "exercise": "Bíceps alternado com halteres",
-        "series": 3,
+        "exercise": "elevação frontal barra sup",
+        "series": 4,
         "repeticoes": 12
       },
       {
-        "exercise": "Bíceps concentrado com halteres",
-        "series": 3,
+        "exercise": "hack machine",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "leg press aberto/fechado 45º",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "cadeira extensora",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "cadeira flexora",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "cadeira adutora",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "cadeira abdutora",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "panturrilha no aparelho em pé",
+        "series": 4,
         "repeticoes": 12
       }
     ]
