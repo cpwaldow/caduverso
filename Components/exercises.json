@@ -46,32 +46,42 @@
     ]
   },
   {
-    "weekday": "Treino B - A DEFINIR",
-    "muscleGroup": "Peito e Tríceps",
+    "weekday": "Treino B",
+    "muscleGroup": "costas e tríceps",
     "exercises": [
       {
-        "exercise": "supino reto com halteres",
-        "series": 3,
-        "repeticoes": 10
-      },
-      {
-        "exercise": "supino inclinado com halteres",
-        "series": 3,
+        "exercise": "pulley costas",
+        "series": 4,
         "repeticoes": 12
       },
       {
-        "exercise": "crossover na máquina",
-        "series": 3,
+        "exercise": "pulley frente sup",
+        "series": 4,
         "repeticoes": 12
       },
       {
-        "exercise": "tríceps barra na polia",
-        "series": 3,
+        "exercise": "remada unilateral com halteres",
+        "series": 4,
         "repeticoes": 12
       },
       {
-        "exercise": "tríceps corda na polia",
-        "series": 3,
+        "exercise": "pulldown",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "tríceps no pulley",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "triceps corda",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "tríceps mergulho",
+        "series": 4,
         "repeticoes": 12
       }
     ]
