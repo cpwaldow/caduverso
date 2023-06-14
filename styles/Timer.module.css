@@ -1,9 +1,9 @@
 .timer-container {
   background-color: rgba(79, 218, 197, 0.421);
-  padding: 20px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
-  border-radius: 8px;
+  padding: 20px;
 }
 
 .timer-title {
@@ -14,10 +14,10 @@
 }
 
 .timer-btn {
-  padding: 5px;
   background-color: rgb(25, 130, 134);
+  border-radius: 8px;
   color: white;
   font-size: large;
   letter-spacing: 1.5px;
-  border-radius: 8px;
+  padding: 5px;
 }
