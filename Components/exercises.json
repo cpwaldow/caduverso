@@ -1,42 +1,47 @@
 [
   {
-    "weekday": "Segunda-feira",
-    "muscleGroup": "Pernas e Glúteos",
+    "weekday": "Treino A",
+    "muscleGroup": "Peito e Bíceps",
     "exercises": [
       {
-        "exercise": "Cadeira extensora",
-        "series": 3,
-        "repeticoes": 10
-      },
-      {
-        "exercise": "Cadeira flexora",
-        "series": 3,
-        "repeticoes": 10
-      },
-      {
-        "exercise": "Leg press",
-        "series": 3,
+        "exercise": "supino reto com halteres",
+        "series": 4,
         "repeticoes": 12
       },
       {
-        "exercise": "Abdução de quadril na máquina",
-        "series": 3,
-        "repeticoes": 15
+        "exercise": "supino inclinado com halteres",
+        "series": 4,
+        "repeticoes": 12
       },
       {
-        "exercise": "Adução de quadril na máquina",
-        "series": 3,
-        "repeticoes": 15
+        "exercise": "fly ap",
+        "series": 4,
+        "repeticoes": 12
       },
       {
-        "exercise": "Glúteo no aparelho em pé",
-        "series": 3,
-        "repeticoes": 15
+        "exercise": "pull over no banco com halter",
+        "series": 4,
+        "repeticoes": 12
       },
       {
-        "exercise": "Panturrilha no aparelho",
-        "series": 3,
-        "repeticoes": 15
+        "exercise": "rosca direta",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "rosca alternada 45º",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "rosca scoth máquina",
+        "series": 4,
+        "repeticoes": 12
+      },
+      {
+        "exercise": "rosca inversa na polia",
+        "series": 4,
+        "repeticoes": 12
       }
     ]
   },
@@ -99,42 +104,6 @@
         "exercise": "Bíceps concentrado com halteres",
         "series": 3,
         "repeticoes": 12
-      }
-    ]
-  },
-  {
-    "weekday": "Quinta-feira",
-    "muscleGroup": "Ombros e Abdômen",
-    "exercises": [
-      {
-        "exercise": "desenvolvimento militar com barra",
-        "series": 3,
-        "repeticoes": 10
-      },
-      {
-        "exercise": "elevação lateral com halteres",
-        "series": 3,
-        "repeticoes": 12
-      },
-      {
-        "exercise": "elevação frontal com halteres",
-        "series": 3,
-        "repeticoes": 12
-      },
-      {
-        "exercise": "remada baixa com halteres",
-        "series": 3,
-        "repeticoes": 12
-      },
-      {
-        "exercise": "abdominal crunch na bola suíça",
-        "series": 3,
-        "repeticoes": 20
-      },
-      {
-        "exercise": "prancha abdominal",
-        "series": 3,
-        "repeticoes": 20
       }
     ]
   }
