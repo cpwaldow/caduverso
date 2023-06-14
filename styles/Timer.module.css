@@ -1,0 +1,23 @@
+.timer-container {
+  background-color: rgba(79, 218, 197, 0.421);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.timer-title {
+  background-color: rgb(25, 130, 134);
+  color: white;
+  margin: 0 0 30px 0;
+  padding: 10px;
+}
+
+.timer-btn {
+  padding: 5px;
+  background-color: rgb(25, 130, 134);
+  color: white;
+  font-size: large;
+  letter-spacing: 1.5px;
+  border-radius: 8px;
+}

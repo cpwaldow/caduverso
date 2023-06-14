@@ -2,6 +2,7 @@ import React from 'react';
 import exercises from '../Components/exercises.json';
 import Head from 'next/head';
 import Header from '../Components/Header';
+import Timer from '../Components/Timer';
 import styles from '../styles/Home.module.css';
 import gymStyle from '../styles/Gym.module.css';
 
@@ -13,7 +14,9 @@ const gym = () => {
         <title>Caduverso - Academia</title>
       </Head>
       <Header />
+
       <section className={gymStyle.container}>
+        <Timer />
         {exercises.map((element) => (
           <details key={element.weekday} className={gymStyle.card}>
             <summary className={gymStyle.weekDay}>{element.weekday}</summary>
