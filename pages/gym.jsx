@@ -19,8 +19,9 @@ const gym = () => {
         <Timer />
         {exercises.map((element) => (
           <details key={element.weekday} className={gymStyle.card}>
-            <summary className={gymStyle.weekDay}>{element.weekday}</summary>
-            <h4>{element.muscleGroup}</h4>
+            <summary className={gymStyle.weekDay}>
+              {element.weekday} - {element.muscleGroup}
+            </summary>
             <section className={gymStyle.exercises}>
               {element.exercises.map((exercise) => (
                 <React.Fragment key={exercise.exercise}>
