@@ -18,7 +18,7 @@ const Timer = () => {
         className={timerStyle['timer-btn']}
         onClick={() => setCounter(60)}
       >
-        Iniciar contagem
+        Iniciar descanso
       </button>
     </div>
   );
